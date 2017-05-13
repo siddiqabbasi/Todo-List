@@ -1,0 +1,60 @@
+
+
+.main {
+    text-align: center;
+    background-size: 400px 500px;
+    background-repeat: no-repeat;
+    background-image: url("photos/backgroundimg.jpg");
+    background-position: top;
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    border: 12px solid black;
+}
+.center {
+    text-align: center;
+    margin-top: 80px;
+    font-family: cursive;
+    font-size: 16px;
+}
+.checked {
+    float: left;
+}
+.b-div {
+    display: inline;
+    float: right;
+}
+
+#myList li {
+    text-align: center;
+    list-style: none;
+    position: relative;
+    height: 50px;
+}
+ul li .para {
+     text-decoration: line-through;
+}
+#todos {
+    font-family: cursive;
+    font-size: 16px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    display: inline;
+    font-family: cursive;
+}
+h2 {
+    font-family: cursive;
+}
+.list img {
+    /*float: right;*/
+    margin: 10px;
+    width: 18px;
+}
+#main {
+    font-family: cursive;
+    font-size: 16px;
+}

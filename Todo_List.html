@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <link rel="stylesheet" href="Todo-List.css">
+    <title>Todo List</title>
 </head>
 <body>
+<div class="main">
 
-<h2>My Todo List</h2>
-<input type="text" id="todos" placeholder="Write Some thing" >
-<button onclick="AddItem()">Add</button>
+    <div class="center">
 
+        <h2>My Todo List</h2>
+<input type="text" id="todos" placeholder="Write Your Task Here" >
+<button id="main" onclick="AddItem()">Add</button>
+    </div>
+    <br/>
 
 <ul id="myList">
 
 </ul>
-
+</div>
 <script src="Todo_List.js"></script>
 </body>
 </html>
